@@ -49,3 +49,9 @@ git commit -m "init BMS algorithm learning roadmap"
 ```
 
 之后再在 GitHub 或 Gitee 创建同名空仓库，并按平台提示添加远程地址、推送 `main` 分支。
+
+git add -A     //把所有新增、修改和删除的文件加入本次提交范围。
+git commit -m "Update learning content" //把刚才准备好的文件保存成一个本地版本。引号里的文字是本次版本说明
+git push origin main
+只更新某个文件时，先确保没有其他文件处于暂存状态：git restore --staged .只会取消暂存，不会删除你对文件做的修改。
+git add -- "study-log/2026.9.22.md"只添加某个文件
