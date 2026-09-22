@@ -50,6 +50,7 @@ git commit -m "init BMS algorithm learning roadmap"
 
 之后再在 GitHub 或 Gitee 创建同名空仓库，并按平台提示添加远程地址、推送 `main` 分支。
 ```text
+cd "C:\Users\aimer\Documents\GitHub\bms-algorithm-learning"
 git add -A     //把所有新增、修改和删除的文件加入本次提交范围。
 git commit -m "Update learning content" //把刚才准备好的文件保存成一个本地版本。引号里的文字是本次版本说明
 git push origin main
